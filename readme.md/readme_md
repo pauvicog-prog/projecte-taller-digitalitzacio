@@ -1,0 +1,18 @@
+# Projecte Taller Mecànic
+
+Aquest projecte consisteix en la digitalització d'un taller mecànic.
+
+## Serveis del projecte
+
+- Base de dades MariaDB
+- API amb Python Flask
+- Web amb HTML, CSS i JavaScript
+- Scripts d'automatització
+- Contenidors Docker
+
+## Com executar el projecte
+
+Primer cal situar-se dins la carpeta principal del projecte:
+
+```bash
+cd projecte-taller

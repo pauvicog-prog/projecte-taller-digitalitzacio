@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Taller Mecànic - Cites Online</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Taller Mecànic</h1>
+        <p>Sol·licita la teva cita online</p>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Demanar cita</h2>
+
+            <form id="appointmentForm">
+                <input type="text" name="nom" placeholder="Nom del client" required>
+                <input type="text" name="telefon" placeholder="Telèfon" required>
+                <input type="email" name="correu" placeholder="Correu electrònic" required>
+
+                <input type="text" name="matricula" placeholder="Matrícula del vehicle" required>
+                <input type="text" name="model" placeholder="Model del vehicle" required>
+                <input type="number" name="any_vehicle" placeholder="Any del vehicle" required>
+
+                <input type="date" name="data_cita" required>
+                <input type="text" name="servei" placeholder="Servei sol·licitat" required>
+
+                <button type="submit">Enviar cita</button>
+            </form>
+
+            <p id="message"></p>
+        </section>
+
+        <section class="card">
+            <h2>Cites demanades</h2>
+            <div id="appointmentsList"></div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
